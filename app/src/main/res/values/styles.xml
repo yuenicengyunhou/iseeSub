@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="activityInOut" parent="AppTheme">
+        <item name="android:windowAnimationStyle">@style/activityAnim</item>
+    </style>
+
+    <style name="activityAnim">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/close_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/close_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out</item>
+    </style>
+
+
+    <style name="AppTheme.Launcher">
+
+            <item name="android:windowBackground">@null</item>
+
+            <item name="android:windowDisablePreview">true</item>
+
+    </style>
+
+    <style name="alivc_info_seekbar" parent="@android:style/Widget.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:maxHeight">@dimen/alivc_player_info_seekbar_height</item>
+        <item name="android:minHeight">@dimen/alivc_player_info_seekbar_height</item>
+        <item name="android:paddingLeft">@dimen/alivc_player_info_seekbar_offset</item>
+        <item name="android:paddingRight">@dimen/alivc_player_info_seekbar_offset</item>
+        <item name="android:thumbOffset">@dimen/alivc_player_info_seekbar_offset</item>
+    </style>
+    <style name="alivc_info_seekbar_blue" parent="alivc_info_seekbar">
+        <item name="android:progressDrawable">@drawable/alivc_info_seekbar_bg_blue</item>
+        <item name="android:indeterminateDrawable">@drawable/alivc_info_seekbar_bg_blue</item>
+        <!--<item name="android:thumb">@drawable/alivc_seekbar_thumb_blue</item>-->
+    </style>
+
+</resources>

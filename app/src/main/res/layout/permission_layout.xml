@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_loading_dialog"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginMiddle"
+        android:text="使用遥控器点击确认键，开启使用权限"
+        android:textColor="@color/textBlack"
+        android:textSize="16sp" />
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="165dp"-->
+        <!--android:layout_marginBottom="3dp">-->
+
+        <ImageView
+            android:layout_below="@id/tv_title"
+            android:id="@+id/iv_storage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/ic_storage" />
+        <TextView
+            android:id="@+id/tv_storage1"
+            android:layout_below="@id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="存储权限"
+            android:textSize="14sp"
+            android:textColor="#636363"
+            android:layout_toEndOf="@id/iv_storage"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="15dp"
+            />
+        <TextView
+            android:id="@+id/tv_storage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="缓存图片,教学音频及应用更新"
+            android:layout_marginEnd="25dp"
+            android:layout_below="@id/tv_storage1"
+            android:textSize="14sp"
+            android:layout_marginTop="@dimen/marginSmall"
+            android:textColor="#939393"
+            android:layout_toEndOf="@id/iv_storage"
+            android:layout_marginStart="15dp"
+            />
+
+        <ImageView
+            android:id="@+id/iv_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginStart="25dp"
+            android:layout_toRightOf="@id/tv_storage2"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/ic_record" />
+        <TextView
+            android:id="@+id/tv_camera1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="相机和录音权限"
+            android:layout_below="@id/tv_title"
+            android:textSize="14sp"
+            android:textColor="#636363"
+            android:layout_toEndOf="@id/iv_camera"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="15dp"
+            />
+        <TextView
+            android:id="@+id/tv_camera2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="实时视频监控班级情况"
+            android:layout_below="@id/tv_camera1"
+            android:textSize="14sp"
+            android:layout_marginTop="@dimen/marginSmall"
+            android:textColor="#939393"
+            android:layout_toEndOf="@id/iv_camera"
+            android:layout_marginStart="15dp"
+            />
+    <!--</RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_marginTop="85dp"
+        android:layout_below="@id/tv_camera2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_dialog_bottom">
+
+        <TextView
+            android:id="@+id/tv_start"
+            android:layout_width="120dp"
+            android:layout_height="@dimen/size40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_dialog_button"
+            android:gravity="center"
+            android:focusable="true"
+            android:text="开启"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

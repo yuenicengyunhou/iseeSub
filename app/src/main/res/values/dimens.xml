@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginCommon">15dp</dimen>
+    <dimen name="marginSmall">25dp</dimen>
+    <dimen name="marginLarge">20dp</dimen>
+    <dimen name="marginTiny">2dp</dimen>
+    <dimen name="marginMiddle">10dp</dimen>
+    <dimen name="text_size_common">16sp</dimen>
+    <dimen name="margin_default">15dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="padding_default">5dp</dimen>
+    <dimen name="size40dp">40dp</dimen>
+    <dimen name="size20dp">20dp</dimen>
+    <dimen name="item_height">60dp</dimen>
+    <dimen name="marginXLarge">26dp</dimen>
+    <dimen name="textsizeSmall">14sp</dimen>
+    <dimen name="textsizeMiddle">15sp</dimen>
+    <dimen name="radius_large">8dp</dimen>
+    <dimen name="radius_Middle">5dp</dimen>
+    <dimen name="radius_Small">3dp</dimen>
+
+    <dimen name="alivc_player_info_seekbar_height">3dp</dimen>
+    <dimen name="alivc_player_info_seekbar_offset">8dp</dimen>
+    <dimen name="alivc_player_info_bar_height">46dp</dimen>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="fastlane_background">#0096a6</color>
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="selected_background">#ffaa3f</color>
+    <color name="default_background">#3d3d3d</color>
+
+
+    <color name="colorPrimary">#5bb8b9</color>
+    <color name="colorPrimaryDark">@android:color/transparent</color>
+    <color name="colorAccent">#5db9b9</color>
+    <color name="textBlack">#2e2e2e</color>
+    <color name="colorPrimaryPressed">#4FBCBD</color>
+    <color name="colorStatusBar">#bdbdbd</color>
+
+    <color name="update_start_color">#e1c14e</color>
+    <color name="update_end_color">#72b39c</color>
+    <color name="update_start_color_dark">#B89E42</color>
+    <color name="update_end_color_dark">#629985</color>
+
+    <color name="alivc_common_bg_cyan_light">#00C1DE</color>
+</resources>
